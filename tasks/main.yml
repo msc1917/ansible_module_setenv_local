@@ -1,0 +1,3 @@
+---
+- name: Lokale Struktur anlegen
+  include_tasks: create_local_files.yml
