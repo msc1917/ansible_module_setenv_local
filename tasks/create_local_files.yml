@@ -18,6 +18,10 @@
    - '{{ inventory_dir }}/dynamic_vars/files/config/dhcp'
    - '{{ inventory_dir }}/dynamic_vars/files/config/ldap'
    - '{{ inventory_dir }}/dynamic_vars/files/config/kubernetes'
+   - '{{ inventory_dir }}/dynamic_vars/files/config/ssl'
+   - '{{ inventory_dir }}/dynamic_vars/files/config/ssl/master-cert'
+   - '{{ inventory_dir }}/dynamic_vars/files/config/ssl/intermediate-cert'
+   - '{{ inventory_dir }}/dynamic_vars/files/config/ssl/server-cert'
    - '{{ label_directory }}'
 
 - name: Create local files
