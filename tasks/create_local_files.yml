@@ -26,6 +26,7 @@
    - '{{ inventory_dir }}/dynamic_vars/files/config/ssl/server-cert'
    - '{{ inventory_dir }}/dynamic_vars/files/config/ssl/server-cert/private'
    - '{{ inventory_dir }}/dynamic_vars/files/config/ssl/server-cert/csr'
+   - '{{ inventory_dir }}/dynamic_vars/files/config/ssl/server-cert/p12'
    - '{{ inventory_dir }}/dynamic_vars/files/config/ssl/server-cert/public'
    - '{{ label_directory }}'
 
