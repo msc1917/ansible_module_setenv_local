@@ -19,9 +19,14 @@
    - '{{ inventory_dir }}/dynamic_vars/files/config/ldap'
    - '{{ inventory_dir }}/dynamic_vars/files/config/kubernetes'
    - '{{ inventory_dir }}/dynamic_vars/files/config/ssl'
-   - '{{ inventory_dir }}/dynamic_vars/files/config/ssl/master-cert'
+   - '{{ inventory_dir }}/dynamic_vars/files/config/ssl/root-cert'
+   - '{{ inventory_dir }}/dynamic_vars/files/config/ssl/root-cert/public'
    - '{{ inventory_dir }}/dynamic_vars/files/config/ssl/intermediate-cert'
+   - '{{ inventory_dir }}/dynamic_vars/files/config/ssl/intermediate-cert/public'
    - '{{ inventory_dir }}/dynamic_vars/files/config/ssl/server-cert'
+   - '{{ inventory_dir }}/dynamic_vars/files/config/ssl/server-cert/private'
+   - '{{ inventory_dir }}/dynamic_vars/files/config/ssl/server-cert/csr'
+   - '{{ inventory_dir }}/dynamic_vars/files/config/ssl/server-cert/public'
    - '{{ label_directory }}'
 
 - name: Create local files
